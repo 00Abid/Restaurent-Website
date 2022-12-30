@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: cursive;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+nav {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  position: sticky;
+  top: 0;
+  margin-top: 32px;
+  background: white;
+  padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bar-icon {
+  font-size: 2rem;
+}
+
+.hero {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tag {
+  background-color: #149f39;
+  padding: 5px 10px;
+  color: white;
+  align-self: flex-start;
+}
+
+.hero-content h1 {
+  font-size: 4.375rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.explore-button {
+  background-color: #a87227;
+  align-self: flex-start;
+}
+
+.features {
+  display: grid;
+  margin-top: 100px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  transition: 0.2s ease-in-out;
+  padding: 20px;
+}
+
+.feature:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}
+
+.divider {
+  border: 1px solid white;
+  margin: 20px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  margin: 50px 0;
+  align-items: center;
+}
+
+.menu .tag {
+  align-self: center;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-image {
+  border-radius: 10px;
+  margin: 5px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid-image:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+footer {
+  background-color: rgb(114, 71, 71);
+}
+
+.footer-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-list h3 {
+  margin-bottom: 10px;
+  color: rgb(23, 18, 8);
+}
+
+.link-list ul {
+  list-style: none;
+}
+
+.news-letter h3 {
+  color: rgb(23, 18, 8);
+}
+
+.news-letter input {
+  padding: 5px 40px;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: larger;
+}
